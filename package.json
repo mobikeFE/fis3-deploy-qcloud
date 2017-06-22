@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "cos-nodejs-sdk-v5": "8.0.0"
+  },
+  "keywords": [
+    "fis",
+    "fis3",
+    "deploy",
+    "plugin",
+    "qcloud"
+  ],
+  "license": "BSD",
+  "main": "index.js",
+  "name": "fis3-deploy-qcloud",
+  "readme": "ERROR: No README data found!",
+  "version": "0.0.1"
+}
