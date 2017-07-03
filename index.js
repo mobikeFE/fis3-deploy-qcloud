@@ -30,7 +30,7 @@ function uploadBuf(release, content, file, callback) {
     cos.putObject({
         Bucket: config.Bucket, /* 必须 */
         Region: config.Region,
-        Key: file.basename, /* 必须 */
+        Key:  objkey, /* 必须 */
         // Body: filepath,
         Body: fs.createReadStream(objkey), /* 必须 */
         ContentLength: fs.statSync(objkey).size, /* 必须 */
